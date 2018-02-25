@@ -23,21 +23,21 @@ $ npm install eslint-plugin-coffeescript --save-dev
 
 Add `coffeescript` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
-```yaml
+```json5
 {
     "plugins": [
-        "coffeescript", # ...
+        "coffeescript", // ...
     ]
 }
 ```
 
 To have imports resolve properly with the `eslint-plugins-imports` module, you must set this plugin to wrap your default parser:
-```yaml
+```json5
 {
   "parser": "eslint-plugin-coffeescript",
   "parserOptions": { 
-    "parser": "babel-eslint", # original parser goes here (you must specify one to use this option).
-    "sourceType": "module", # any original parser config options you had.
+    "parser": "babel-eslint", // original parser goes here (you must specify one to use this option).
+    "sourceType": "module", // any original parser config options you had.
     "ecmaVersion": 6
   }
 }
