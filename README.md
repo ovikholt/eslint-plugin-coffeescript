@@ -45,6 +45,6 @@ To have imports resolve properly with the `eslint-plugins-imports` module, you m
 
 ## Contributors
 
-Best regards to awesome contributors:
-- @aminland
-- @ericls
+Big thanks for awesome contributors:
+- [@aminland](https://github.com/aminland)
+- [@ericls](https://github.com/ericls)
