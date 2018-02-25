@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-coffeescript",
-  "version": "0.2.1",
-  "description": "Transpile coffee files before eslint checks will be run",
+  "version": "0.3.0",
+  "description": "Transpiles coffee files (.coffee, .cjsx) and runs through eslint. Reports errors with original line numbers.",
   "main": "lib/index.js",
   "keywords": [
     "eslint",
@@ -10,15 +10,16 @@
   ],
   "author": "alex <alex@rocketguys.com>",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "ava"
   },
   "dependencies": {
-    "coffeescript": "^2.1.0",
-    "requireindex": "~1.1.0"
+    "coffeescript": "^2.1.1",
+    "eslint-module-utils": "^2.1.1",
+    "source-map": "^0.6.1"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
-    "mocha": "^3.1.2"
+    "ava": "^0.25.0",
+    "eslint": "~3.9.1"
   },
   "repository": "git@github.com:a-x-/eslint-plugin-coffeescript.git",
   "engines": {
