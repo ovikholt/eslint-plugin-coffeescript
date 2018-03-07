@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-coffeescript",
+  "name": "eslint-plugin-coffeescript-es7",
   "version": "1.0.0",
   "description": "Transpiles coffee files (.coffee, .cjsx) and runs through eslint. Reports errors with original line numbers.",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "alex <alex@rocketguys.com>",
+  "author": "Ola Vikholt <ovikholt@gmail.com>",
   "scripts": {
     "test": "ava"
   },
@@ -21,7 +21,7 @@
     "ava": "^0.25.0",
     "eslint": "~3.9.1"
   },
-  "repository": "git@github.com:a-x-/eslint-plugin-coffeescript.git",
+  "repository": "git@github.com:ovikholt/eslint-plugin-coffeescript.git",
   "engines": {
     "node": ">=0.10.0"
   },
